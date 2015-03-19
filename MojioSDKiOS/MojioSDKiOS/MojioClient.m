@@ -45,6 +45,7 @@
     self.appId = appId;
     self.secretKey = secretKey;
     self.redirectUrlScheme = urlScheme;
+    self.isSandbox = YES;
 }
 
 -(BOOL) isUserLoggedIn {
@@ -64,7 +65,12 @@
     if ([self isUserLoggedIn]) {
         self.loginCompletionBlock();
     } else {
-        NSString *urlString = [NSString stringWithFormat:@"https://api.moj.io/OAuth2/authorize?response_type=token&client_id=%@&redirect_uri=%@", self.appId, self.redirectUrlScheme];
+        NSString *sandbox = @"";
+        if (self.isSandbox) {
+          sandbox = @"Sandbox";
+        }
+
+        NSString *urlString = [NSString stringWithFormat:@"https://api.moj.io/OAuth2%@/authorize?response_type=token&client_id=%@&redirect_uri=%@", sandbox, self.appId, self.redirectUrlScheme];
         NSURL *url = [NSURL URLWithString:urlString];
         [[UIApplication sharedApplication] openURL:url];
     }

@@ -12,6 +12,8 @@
 	<dict>
 		<key>1181DA172460B7E827F10EFD47AF045486BE5DCB</key>
 		<string>https://github.com/mojio/mojio-ios-sdk.git</string>
+		<key>69E91FABF1E261A45ACB0C3F143C0AA572E3820F</key>
+		<string>github.com:andresrama/NWHacks2015-TheDanglingPointers.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MojioSDKiOS/MojioSDKiOS.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>1181DA172460B7E827F10EFD47AF045486BE5DCB</key>
 		<string>../..</string>
+		<key>69E91FABF1E261A45ACB0C3F143C0AA572E3820F</key>
+		<string>../../../NWHacks2015-TheDanglingPointers</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/mojio/mojio-ios-sdk.git</string>
@@ -35,6 +39,14 @@
 			<string>1181DA172460B7E827F10EFD47AF045486BE5DCB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69E91FABF1E261A45ACB0C3F143C0AA572E3820F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NWHacks2015-TheDanglingPointers</string>
 		</dict>
 	</array>
 </dict>

@@ -8,34 +8,77 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Pods-MojioSDK-TestApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-MojioSDKiOS-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-MojioSDKiOS-AFOAuth2Manager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-MojioSDKiOS-JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Pods-MojioSDKiOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>37F182025FC47C3EA287BFDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F4F2DD0A93B2CF557ADEB97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FE37F177E0C5DDB76EC816F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>605D40462F789BA7FA3CC6DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7D12BA6FC13025234DD0785</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5F46845DC93D53065F02800</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
