@@ -25,6 +25,8 @@
 
 // Assign the values of the App id, secret key and redirect uri scheme to the client
 - (void) initWithAppId : (NSString *) appId andSecretKey : (NSString *)secretKey andRedirectUrlScheme : (NSString *) urlScheme;
+// Assign the values of the App id, secret key, redirect uri scheme, and sandbox mode boolean flag to the client
+- (void) initWithAppId : (NSString *) appId andSecretKey : (NSString *)secretKey andRedirectUrlScheme : (NSString *) urlScheme andIsSandbox : (BOOL) isSandbox;
 
 // CRUD methods
 -(void) getEntityWithPath:(NSString *)path withQueryOptions:(NSDictionary *)queryOptions success:(void (^)(id responseObject))success failure:(void (^) (NSError *error))failure;
